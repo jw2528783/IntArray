@@ -91,7 +91,7 @@ int main(int argc, char * args[]) {
 	a[0] = new Cat();
 	a[1] = new Dog();
 	a[2] = new Cat();
-
+	//Instead of using assertions, I provide both instances to prove it
 	cout<<a[1]->speak()<<endl;
 	cout<<a[2]->speak()<<endl;
 
